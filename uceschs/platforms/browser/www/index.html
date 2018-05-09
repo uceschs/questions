@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Qiz App</title>
+    <title>The Question App</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -114,7 +114,7 @@
         mymap.on('locationfound', onLocationFound);
         mymap.on('locationerror', onLocationError);
         // locate the user's location
-        mymap.locate({setView: true, maxZoom: 25, watch: true});
+        mymap.locate({setView: true, maxZoom: 25});
 
       // add a point
       L.marker([51.524593, -0.133842]).addTo(mymap).bindPopup("<h6>UCL</h6>Main Library").openPopup();
